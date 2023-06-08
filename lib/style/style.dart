@@ -24,6 +24,7 @@ class PrimaryText extends StatelessWidget {
         color: color,
         fontSize: size,
         fontWeight: fontWeight,
+        height: height,
       ),
     );
   }

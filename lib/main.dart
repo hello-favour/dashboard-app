@@ -1,4 +1,5 @@
 import 'package:dashboard_app/screens/dashboard_screen.dart';
+import 'package:dashboard_app/style/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Dashboard App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: AppColors.primaryBg,
         useMaterial3: true,
         fontFamily: "Poppins",
       ),

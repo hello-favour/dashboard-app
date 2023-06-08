@@ -42,4 +42,18 @@ const transactionHistory = [
     "time": "10:42:23 AM",
     "status": "completed",
   },
+  {
+    "avatar": "assets/images/avater 1.png",
+    "label": "Loan",
+    "amount": "\$350",
+    "time": "12:42:00 PM",
+    "status": "completed",
+  },
+  {
+    "avatar": "assets/images/avater 1.png",
+    "label": "Online Payment",
+    "amount": "\$154",
+    "time": "10:50:23 PM",
+    "status": "completed",
+  },
 ];
